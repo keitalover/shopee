@@ -1,0 +1,82 @@
+.gnb {
+    background-color: #ff7337;
+    padding: 10px;
+    color: white;
+    }
+    .top, .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 1200px;
+    margin: auto;
+    }
+    .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: auto;
+    }
+    .left > li, .left > i {
+     margin-right: 5px;
+    }
+    .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: auto;
+    }
+    .right > li {
+    margin-right: 10px;
+    }
+    .right > li > i {
+    margin-right: 5px;
+    }
+    .search {
+        margin-right: auto;
+        margin-right: auto;
+    }
+    .search-box {
+        width: 840px;
+        height: 34px;
+        background-color: white;
+        border-radius: 2px;
+        padding: 1px;
+    }
+    .search-box > input {
+        width: 92%;
+        height: 35px;
+        margin-right: auto;
+        border: none;
+    }
+    .search-box > button {
+        background-color: #fb5533;
+        color: white;
+        width: 60px;
+        height: 40px;
+        border: none;
+        border-radius: 2px;
+        margin-right: 2px;
+    }
+    .tags {
+        margin-top: 5px;
+        width: 840px;
+    }
+    .tags > li {
+        margin-right: 10px;
+    }
+    .tags > li:last-child {
+        margin-right: auto;
+    }
+    .cart {
+        font-size: 24px;
+        margin-right: 70px;
+    }
+    .bottom > img {
+        margin-bottom: 10px;
+    }
